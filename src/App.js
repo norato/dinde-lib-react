@@ -28,6 +28,28 @@ class App extends Component {
               returnType: "string"
             }
           ] 
+        },
+        {
+          name: "Bar",
+          attributes: [
+            {
+              accessType: "public",
+              name: "bar",
+              returnType: "string"
+            },
+            {
+              accessType: "private",
+              name: "bar2",
+              returnType: "string"
+            }
+          ],
+          methods: [
+            {
+              accessType: "public",
+              name: "lol",
+              returnType: "string"
+            }
+          ] 
         }
       ]
     }
